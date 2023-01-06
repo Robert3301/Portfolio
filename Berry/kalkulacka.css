@@ -1,0 +1,88 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.container { 
+    max-width: 400px;
+    background: rgb(31, 31, 31);
+    color: #080808;
+    border-radius: 1em;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+#display { 
+    margin-bottom: 40px;
+    text-align: right;
+    height: 125px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 50px;
+    background: rgb(179, 179, 179);
+    border: 10px  solid rgb(31, 31, 31);
+    border-radius: .8em;
+    overflow: hidden;
+    
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 1em;
+    
+}
+
+.button { 
+    
+    line-height: 85px;
+    border-radius: 45px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    background: rgb(48, 48, 48);
+}
+
+.button:hover { 
+    background: rgb(68, 68, 68);
+    transition: .3s ease-in-out ;
+}
+.orange:hover { 
+    background: rgb(48, 48, 48);
+    transition: .3s ease-in-out ;
+    color: #fff;
+}
+
+#equal { 
+    background: #fff915;
+    color: black;
+    font-weight: 800;
+}
+
+#equal:hover { 
+    background: rgb(48, 48, 48);
+    transition: .3s ease-in-out ;
+    color: #fff;
+}
+
+#orange { 
+    background: #e4d61d;
+    font-size: 50px;
+    line-height: 85px;
+    border-radius: 45px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+

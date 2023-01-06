@@ -1,0 +1,58 @@
+* { 
+    font-family: 'Fraunces', serif;
+font-family: 'Gruppo', cursive;
+font-family: 'Montserrat', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+h1 { 
+    text-decoration: none;
+}
+.ukaz-ramecek { 
+    border: 1px solid black;
+}
+
+.banner-stred { 
+    width: 960px;
+    max-width: 100%;
+    background-color: rgb(169 27 150 / 80%);
+    padding: 12px;
+    border-radius: 8px;
+    color: #df955c;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#sekce { 
+    height: 400px;
+    background-image: url(/images/banner-dvojka.jpg);
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profilovyobrazek { 
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: #97248b;
+    
+}
+
+.obrazek { 
+    flex: 1;
+}
+
+.obsah-sekce { 
+    flex: 2;
+}
